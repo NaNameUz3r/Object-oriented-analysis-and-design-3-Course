@@ -10,25 +10,28 @@
 На этом этапе снова кажется, что определенная система классов выглядит, какой-то бедной и неполноценной. Не очень понятно было в какие кластера сводить, но предлагаю такой вариант:
 
 ### Кластер "Станция и компоненты":
-SpaceStation
-StationModule
-Astronaut
-Resource
+- SpaceStation
+- StationModule
+- Astronaut
+- Resource
 
 ### Кластер "Время и события":
-Clock
-Event
+- Clock
+- Event
 
 ### Кластер "Интерфейс и взаимодействие":
-Screen
+- Screen
 
 ### Кластер "Фабрики":
-AstronautFactory
-StationModuleFactory
+- AstronautFactory
+- StationModuleFactory
 
 ### Кластер "Обработка Состоянияй":
-AstronautStateMachine
-StationModuleStateMachine
+- AstronautStateMachine
+- StationModuleStateMachine
+
+### Кластер "Структуры данных":
+- Queue
 
 ---
 
