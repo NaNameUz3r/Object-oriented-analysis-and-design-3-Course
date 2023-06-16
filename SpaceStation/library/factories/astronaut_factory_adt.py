@@ -18,9 +18,6 @@ class AstronautFactory(metaclass=ABCMeta):
         """
         Create a new astronaut.
         Preconditions:
-            - name: The name of the astronaut.
-            - age: The age of the astronaut.
-            - gender: The gender of the astronaut.
             - there is enough space for new astronaut in space station.
         Postcondition:
             - New Astronaut instance created with initial states.
